@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3004997219441006832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1215882535303570150}
+  - component: {fileID: 8931752709085213842}
+  - component: {fileID: 6588764712439934657}
+  - component: {fileID: 6230855824570788056}
+  m_Layer: 0
+  m_Name: WindGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1215882535303570150
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004997219441006832}
+  m_LocalRotation: {x: -0.009681497, y: 0.14576182, z: -0.065562986, w: 0.9870974}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 16.8, z: -7.6}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 289.2, y: -201.1}
+  m_SizeDelta: {x: 846, y: 685.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8931752709085213842
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004997219441006832}
+  m_CullTransparentMesh: 1
+--- !u!114 &6588764712439934657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004997219441006832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 37528b50734b5f04197c408a1129ccaf, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!114 &6230855824570788056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004997219441006832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4c33c4691e81e4b9067d1eabc49eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WindGun
+  rawImage: {fileID: 6588764712439934657}
+  currentSprite: {fileID: 2800000, guid: 37528b50734b5f04197c408a1129ccaf, type: 3}
+  mouseController: {fileID: 0}
+  gunType: GUN
+  sprite1: {fileID: 2800000, guid: 37528b50734b5f04197c408a1129ccaf, type: 3}
+  sprite2: {fileID: 2800000, guid: 136b7f3ec61d76344a238c5b166404cc, type: 3}
+  sprite3: {fileID: 2800000, guid: bfb334e2d40d7ea47abeed5a977911bd, type: 3}
+  bullet: {fileID: 3670115597229429333, guid: 832126320fec7844bb2dda6df9967f54, type: 3}
